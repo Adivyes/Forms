@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -5,8 +7,32 @@
 html{
     text-align: center;
 }
+.continer{
+    margin-top: 100px;
+}
 
+body{
+    background-image: linear-gradient(to top, #053733, #004c66, #005db0, #005cea, #b212eb);
+height: 100vh;
+}
 
+h1{
+    margin-bottom: 30px;
+font-family: 'Poppins';
+color: white;
+}
+
+h2{
+    font-family: 'Poppins';
+    color: white;
+
+}
+
+#tabelId tr td{
+    font-family: 'Poppins';
+    color: white;
+
+}
 
 #submit{
     margin-top: 20px;
